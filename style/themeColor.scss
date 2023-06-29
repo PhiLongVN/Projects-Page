@@ -1,0 +1,93 @@
+#darkTheme {
+  background-image: url(../image/5570834.jpg);
+  background-size: cover;
+  background-color: red;
+
+  // ---------------------------
+  .header {
+    background-color: #13262c;
+
+    .signature {
+      background-image: url(../image/Long.PNG);
+    }
+  }
+  // -----------------------------
+  .sec-title {
+    background-color: #2c5364;
+    color: #13262c;
+
+    .icon {
+      background-color: wheat;
+    }
+    h2 {
+      color: greenyellow;
+
+      &:hover {
+        text-shadow: 0 0 10px greenyellow, 0 0 15px greenyellow,
+          0 0 21px greenyellow, 0 0 42px greenyellow, 0 0 82px greenyellow,
+          0 0 92px greenyellow, 0 0 102px greenyellow, 0 0 151px greenyellow;
+      }
+    }
+  }
+
+  .sec-menu {
+    .block-list {
+      background-color: rgba(140, 133, 122, 0.486);
+
+      a {
+        color: whitesmoke;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.482);
+        }
+      }
+    }
+  }
+}
+
+/* ============================================ */
+/*                  LIGHTTHEME                  */
+/* ============================================ */
+#lightTheme {
+  background-image: url(../image/abstract-surface-wood-texture-background.jpg);
+
+  .header {
+    background-color: wheat;
+    border: 3px solid black;
+    border-top: none;
+
+    .signature {
+      background-image: url(../image/Capture.PNG);
+    }
+  }
+  // -----------------------------
+  .sec-title {
+    background-color: rgb(222, 157, 38);
+
+    .icon {
+      background-color: wheat;
+    }
+
+    h2 {
+      color: black;
+
+      &:hover {
+        transform: skew(-25deg);
+      }
+    }
+  }
+
+  .sec-menu {
+    .block-list {
+      background-color: wheat;
+
+      a {
+        color: black;
+
+        &:hover {
+          background: whitesmoke;
+        }
+      }
+    }
+  }
+}
