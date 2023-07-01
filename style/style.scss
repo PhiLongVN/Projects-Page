@@ -31,9 +31,29 @@
   .signature {
     width: 200px;
     height: 50px;
-
     background-size: cover;
     background-color: transparent;
+  }
+}
+
+.socialLink {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  a {
+    cursor: pointer;
+    transition: all ease 0.3s;
+    &:hover {
+      transform: scale(1.5);
+      color: whitesmoke;
+    }
+  }
+
+  .fa-facebook {
+    color: rgb(0, 170, 255);
+  }
+  .fa-github {
+    color: purple;
   }
 }
 

@@ -151,6 +151,26 @@ li {
   background-color: transparent;
 }
 
+.socialLink {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+.socialLink a {
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.socialLink a:hover {
+  transform: scale(1.5);
+  color: whitesmoke;
+}
+.socialLink .fa-facebook {
+  color: rgb(0, 170, 255);
+}
+.socialLink .fa-github {
+  color: purple;
+}
+
 .sidebar {
   display: flex;
   justify-content: center;
